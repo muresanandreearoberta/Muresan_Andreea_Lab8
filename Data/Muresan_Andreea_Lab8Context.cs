@@ -17,5 +17,6 @@ namespace Muresan_Andreea_Lab8.Data
         public DbSet<Muresan_Andreea_Lab8.Models.Book> Book { get; set; }
 
         public DbSet<Muresan_Andreea_Lab8.Models.Publisher> Publisher { get; set; }
+        public object Category { get; internal set; }
     }
 }
